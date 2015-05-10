@@ -13,11 +13,11 @@ Place the python file in the directory where the file you want to manipulate is 
 
 in the terminal. The option parameters are more thoroughly explained below:
 
-	[Name of original file] - The name (or path and name if it’s not placed in the same directory as the program) of the original file that should be manipulated.
-	[Name of output file] - The desired name (or path and name) of the output file that the program generates.
-	[Program mode] - Possible parameters are either ‘in’ or ‘out’. Tells the program whether it should be in in mode (where lines are uncommented) or out mode (where lines are commented out). 
-	[Comment character/s] - The comment character/s used in the program language that is being used in the original file.
-	[List of commands] - A list, separated by spaces, of all the commands that should be detected by the program and used to comment out or uncomment lines but without the initial comment character/s.
+* [Name of original file] - The name (or path and name if it’s not placed in the same directory as the program) of the original file that should be manipulated.
+* [Name of output file] - The desired name (or path and name) of the output file that the program generates.
+* [Program mode] - Possible parameters are either ‘in’ or ‘out’. Tells the program whether it should be in in mode (where lines are uncommented) or out mode (where lines are commented out). 
+* [Comment character/s] - The comment character/s used in the program language that is being used in the original file.
+* [List of commands] - A list, separated by spaces, of all the commands that should be detected by the program and used to comment out or uncomment lines but without the initial comment character/s.
 
 Example 1:
 	
