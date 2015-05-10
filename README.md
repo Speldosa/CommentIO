@@ -19,7 +19,7 @@ in the terminal. The option parameters are more thoroughly explained below:
 * [Comment character/s] - The comment character/s used in the program language that is being used in the original file.
 * [List of commands] - A list, separated by spaces, of all the commands that should be detected by the program and used to comment out or uncomment lines but without the initial comment character/s.
 
-Example 1:
+### Example 1:
 	
 	python CommentIO.py Test.tex NewFile.tex out % @
 
@@ -34,7 +34,7 @@ The modified file will look like this:
 	This is another test.
 
 
-Example 2:
+### Example 2:
 
 	python CommentIO.py Test.tex NewFile.tex in % @
 
