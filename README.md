@@ -1,8 +1,13 @@
-# Name: CommentIO.py
-# Version 1.0
-# Last updated: 2015-05-10
-# Programmer: Martin Larsson, to.martin.larsson@gmail.com
-# Basic usage: Place the python file in the directory where the file you want to manipulate is located. Then type:
+## Name
+CommentIO.py
+## Version: 
+1.0
+## Last updated: 
+2015-05-10
+## Programmer: 
+Martin Larsson, to.martin.larsson@gmail.com
+## Basic usage: 
+Place the python file in the directory where the file you want to manipulate is located. Then type:
 
 	python CommentIO.py [Name of original file] [Name of output file] [Program mode] [Comment character/s] [List of commands]
 
