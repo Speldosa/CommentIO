@@ -6,8 +6,6 @@
 
 import sys
 
-# printHelpText()
-
 # Fetch the filename of the input file from system input
 inputFilename = sys.argv[1]
 
