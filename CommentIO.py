@@ -1,10 +1,28 @@
 # Name: CommentIO.py
 # Version 1.0
-# Last updated: 2015-05-10
+# Last updated: 2015-05-12
 # Programmer: Martin Larsson, to.martin.larsson@gmail.com
 # See the readme file for further info.
 
 import sys
+import os
+import os.path
+
+def printHelpMessage(error):
+	print("\nError: " + error + "\n\nUsage: python CommentIO [name of original file] [name of output file] [program mode] [comment character/s] [list of commands]\n\nSee the readme file for further instructions.\n")
+	sys.exit()
+
+# Check if enough arguments have been given.
+if len(sys.argv) < 5:
+	printHelpMessage("To few arguments given.")
+	
+# Check if the input file exists.
+if not (os.path.isfile(sys.argv[1]) and os.access(sys.argv[1], os.R_OK)):
+	printHelpMessage("Input file is either missing or is not readable.")
+
+# Check if the program mode option has been specified correctly.
+if not (sys.argv[3] == "in" or sys.argv[3] == "out"):
+	printHelpMessage("The program mode option should either be 'in' or 'out'.")
 
 # Fetch the filename of the input file from system input
 inputFilename = sys.argv[1]
