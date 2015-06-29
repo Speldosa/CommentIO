@@ -27,15 +27,15 @@ Basically, you use the program by marking certain lines in your code with certai
 # Basic usage: 
 Place the python file, comment_io.py, in the directory where the file you want to manipulate is located. Then type:
 
-	python comment_io.py [Name of original file] [Name of output file] [Program mode] [Comment character/s] [List of commands]
+	python comment_io.py 'Name of original file' 'Name of output file' 'Program mode' 'Comment character/s' 'List of commands'
 
 in the terminal. The option parameters are more thoroughly explained below:
 
-* [Name of original file] - The name (or path and name if it’s not placed in the same directory as the program) of the original file that should be manipulated.
-* [Name of output file] - The desired name (or path and name) of the output file that the program generates.
-* [Program mode] - Possible parameters are either ‘in’ or ‘out’. Tells the program whether it should be in in mode (where lines are uncommented) or out mode (where lines are commented out). 
-* [Comment character/s] - The comment character/s used in the program language that is being used in the original file.
-* [List of commands] - A list, separated by spaces, of all the commands that should be detected by the program and used to comment out or uncomment lines but without the initial comment character/s.
+* *Name of original file* - The name (or path and name if it’s not placed in the same directory as the program) of the original file that should be manipulated.
+* *Name of output file* - The desired name (or path and name) of the output file that the program generates.
+* *Program mode* - Possible parameters are either ‘in’ or ‘out’. Tells the program whether it should be in in mode (where lines are uncommented) or out mode (where lines are commented out). 
+* *Comment character/s* - The comment character/s used in the program language that is being used in the original file.
+* *List of commands* - A list, separated by spaces, of all the commands that should be detected by the program and used to comment out or uncomment lines but without the initial comment character/s.
 
 ## Example 1:
 	
@@ -139,8 +139,10 @@ Typesetting this file would only output one enumerated item, namely the 'This is
 
 # Change log
 
-v1.1 (released 20XX-XX-XX): 
+v1.1 (released 2015-06-29): 
+	- Fixed some bugs.
 	- Improved the readme file with useful tips of when to use the program.
+	- Corrected some aspect of the readme file that didn't adhere to the Markdown standard.
 
 v1.0 (released 2015-05-12): 
 	- Added all the basic functionality.
