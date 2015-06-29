@@ -140,9 +140,9 @@ Typesetting this file would only output one enumerated item, namely the 'This is
 # Change log
 
 v1.1 (released 2015-06-29): 
-	- Fixed some bugs.
-	- Improved the readme file with useful tips of when to use the program.
-	- Corrected some aspect of the readme file that didn't adhere to the Markdown standard.
+* Fixed some bugs.
+* Improved the readme file with useful tips of when to use the program.
+* Corrected some aspect of the readme file that didn't adhere to the Markdown standard.
 
 v1.0 (released 2015-05-12): 
-	- Added all the basic functionality.
+* Added all the basic functionality.
