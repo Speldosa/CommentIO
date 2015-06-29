@@ -1,6 +1,6 @@
 # Name: CommentIO.py
-# Version 1.0
-# Last updated: 2015-05-12
+# Version 1.1
+# Last updated: 2015-06-29
 # Programmer: Martin Larsson, to.martin.larsson@gmail.com
 # See the readme file for further info.
 
