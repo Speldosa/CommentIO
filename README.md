@@ -11,11 +11,11 @@ comment_io
 
 
 # Author: 
-Carl Martin Henrik Larsson, to.martin.larsson@gmail.com
+Martin Asperholm, martin.asperholm@gmail.com
 
 
 # License type:
-GNU Gen­eral Public Li­cense, ver­sion 3
+GNU General Public License, version 3
 
 
 # Description:
